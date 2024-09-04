@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+h1{
+    background-color: #21313a;
+    display: flex;
+    color: #ffff;
+    justify-content: center;
+    height: 5.5rem;
+    align-items: center;
+    font-size: 3rem;
+    
+}
+img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.choice:hover{
+    background-color: rgba(0, 0, 0, 0.575);
+    cursor: pointer;
+    
+}
+
+.choice{
+    height: 215px;
+    width: 215px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    /* background-color: #3282B8; */
+    background-color: #BBE1FA;
+}
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    gap: 5rem;
+    /* background-color: #BBE1FA; */
+    background-color: #3282B8;
+    
+}
+.score-board{
+    height: 250px;
+    /* background-color: #3282B8; */
+    width: 100%;
+    /* background-color: #BBE1FA; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24rem;
+}
+.you ,.com{
+    font-size: 3rem;
+}
+#Computer , #User {
+    font-size: 4rem;
+}
+.msg-box{
+    margin-top: 4rem;
+ 
+}
+.msg{
+background-color: #0F4C75;
+color: azure;
+display: inline;
+font-size: 2rem;
+font-weight: 800;
+padding: 1rem;
+border-radius: 2em;
+}
+.youWins{
+    background-color: green;
+}
+.opponentWins{
+    background-color: red;
+}
+
+
